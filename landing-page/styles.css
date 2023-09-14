@@ -1,0 +1,214 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* PRIMEIRO CONTAINER */
+
+.first-container{
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 450px;
+    margin-bottom: 150px;
+}
+
+.logo{
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.links{
+    display: flex;
+    margin-right: 450px;
+    gap: 30px;
+}
+
+a{
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.description{
+    color: white;
+    width: 460px;
+    margin-left: 450px;
+}
+
+.description .title{
+    font-size: 48px;
+    font-weight:900;
+}
+
+.description .text{
+    font-size: 18px;
+    color: #c7d3e4;
+}
+
+.description button{
+    padding: 10px 30px;
+    color: white;
+    background-color: #3882F6;
+    font-weight: 800;
+    font-size: medium;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+}
+
+.placeholder{
+    background-color: #6d747e;
+    margin-right: 450px;
+    width: 500px;
+    height: 215px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder .text{
+    color: white;
+}
+
+/* SEGUNDO CONTAINER */
+
+.second-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+
+.second-container .title{
+    font-size: 36px;
+    font-weight:bolder;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.illustrations{
+    display: flex;
+    gap: 50px;
+}
+
+.boxes{
+    width: 170px;
+    height: 170px;
+    border-radius: 15px;
+    border: 4px solid #3882F6;
+    margin-bottom: 5px;
+}
+
+.ad-boxes{
+    width: 178px;
+    text-align: center;
+}
+
+.ad-boxes .text{
+    color: rgb(80, 80, 80);
+}
+
+/* TERCEIRO CONTAINER */
+
+.third-container{
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    margin-top: 150px;
+    margin-bottom: 120px;
+    width: 800px;
+}
+
+.author{
+    text-align: right;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin-right: 50px;
+}
+
+/* QAURTO CONTAINER */
+
+.fourth-container{
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+}
+
+.action{
+    background-color: #3882F6;
+    padding: 40px 100px;
+    border-radius: 8px;
+}
+
+.action .title{
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+}
+
+.action .text{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action button{
+    padding: 8px 28px;
+    color: white;
+    background-color: #3882F6;
+    font-weight: 800;
+    font-size: medium;
+    border-radius: 8px;
+    margin-left: 40px;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+
+.action-content{
+    display: flex;
+    gap: 200px;
+}
+
+.action-text{
+    display: flex;
+    flex-direction: column;
+}
+
+/* FOOTER */
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+}
+
+.footer .text{
+    color: white;
+    padding: 40px;
+}
